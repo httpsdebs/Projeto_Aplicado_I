@@ -15,3 +15,8 @@
 ## Objetivo
 
 Desenvolver um modelo preditivo para detecção de fraudes em transações de cartão de crédito, utilizando técnicas de ciência de dados e aprendizado de máquina.
+
+## 🌐 Visualização do Projeto
+
+Você pode acessar a página HTML publicada via GitHub Pages:  
+👉 [Visualizar site](https://httpsdebs.github.io/Projeto_Aplicado_I/projetoaplicadoI.html)
