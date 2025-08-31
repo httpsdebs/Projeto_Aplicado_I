@@ -1,7 +1,6 @@
 ## 📁 Estrutura do Repositório
 
 - `data/` – Arquivos de dados tratados e compactados (.csv via Git LFS)
-- `notebooks/` – Análises exploratórias e modelagem em Jupyter
 - `scripts/` – Scripts Python utilizados no projeto
 - `docs/` – Documentação técnica e relatório final
 - `README.md` – Descrição do projeto, integrantes e instruções de uso
