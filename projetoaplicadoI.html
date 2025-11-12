@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Aplicado I - Detecção de Fraudes em Transações de Cartão de Crédito. Grupo: Déborah, Diógenes, Lucas e Luiz.">
+    <title>Projeto Aplicado I - Detecção de Fraudes</title>
+    <link rel="icon" href="11094214.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #6f4284;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #e2e2e2;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #9331cb;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        h1, h2, h3 {
+            color: #b15dd8;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: #777;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body background-color: #e9d6f2;>
+    <header>
+        <h1>Projeto Aplicado I</h1>
+        <p>Detecção de Fraudes em Transações de Cartão de Crédito</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#titulo">Título</a></li>
+            <li><a href="#membros">Membros</a></li>
+            <li><a href="#contexto">Introdução</a></li>
+            <li><a href="#problema">Problema</a></li>
+            <li><a href="#dataset">Dataset</a></li>
+            <li><a href="#cronograma">Cronograma</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#execucao">Execução</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="titulo">
+            <h2>Título do Trabalho</h2>
+            <p><strong>Detecção de Fraudes em Transações de Cartão de Crédito</strong></p>
+        </section>
+
+        <section id="membros">
+            <h2>Membros do Grupo</h2>
+            <ul>
+                <li>Déborah Silvério Alves Morales - RA: 10728563</li>
+                <li>Diógenes Nimário de Araújo Pereira - RA: 10424898</li>
+                <li>Lucas Iglezias dos Anjos - RA: 10433522</li>
+                <li>Luiz Benlardi Neto - RA: 10724617</li>
+            </ul>
+        </section>
+
+        <section id="contexto">
+            <h2>Introdução e Justificativa</h2>
+            <p>O crescimento das transações digitais aumentou significativamente o número de fraudes financeiras. Detectar fraudes em tempo real é um desafio devido ao grande volume de dados e à complexidade dos padrões de fraude.</p>
+            <p>A ciência de dados possibilita a criação de modelos que identificam anomalias e ajudam a proteger consumidores e empresas, reduzindo perdas financeiras e fortalecendo a confiança no sistema bancário.</p>
+        </section>
+
+        <section id="problema">
+            <h2>Definição do Problema</h2>
+            <ul>
+                <li>Desbalanceamento de classes (fraudes são raras).</li>
+                <li>Anonimização dos dados (variáveis PCA).</li>
+                <li>Natureza dinâmica da fraude (padrões em constante evolução).</li>
+                <li>Grande volume de dados.</li>
+            </ul>
+        </section>
+
+        <section id="dataset">
+            <h2>Dataset</h2>
+            <ul>
+                <li><strong>Nome:</strong> Credit Card Fraud Detection (Kaggle)</li>
+                <li><strong>Origem:</strong> Université Libre de Bruxelles (ULB)</li>
+                <li><strong>Período:</strong> Setembro de 2013</li>
+                <li><strong>Tamanho:</strong> ~285.000 transações, 31 variáveis</li>
+                <li><strong>Variáveis principais:</strong> Time, V1–V28 (PCA), Amount, Class</li>
+            </ul>
+        </section>
+
+        <section id="cronograma">
+    <h2>Cronograma - Projeto Aplicado I (2º Semestre de 2025)</h2>
+    <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width:100%;">
+        <thead style="background-color:#fce6ff;">
+            <tr>
+                <th>Etapa</th>
+                <th>Atividade</th>
+                <th>Responsável</th>
+                <th>Início</th>
+                <th>Término</th>
+                <th>Entrega / Milestone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Definição do escopo e tema do projeto</td>
+                <td>Todos os membros</td>
+                <td>01/09/2025</td>
+                <td>02/09/2025</td>
+                <td>Tema definido</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Escolha e validação do dataset</td>
+                <td>Déborah</td>
+                <td>02/09/2025</td>
+                <td>03/09/2025</td>
+                <td>Dataset aprovado</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Organização do cronograma e divisão de tarefas</td>
+                <td>Déborah</td>
+                <td>03/09/2025</td>
+                <td>04/09/2025</td>
+                <td>Cronograma fechado</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><strong>Entrega da Etapa 1</strong></td>
+                <td>Todos os membros</td>
+                <td>—</td>
+                <td><strong>04/09/2025</strong></td>
+                <td><strong>A1 – Aplicando Conhecimento (N1)</strong></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Coleta do dataset e análise exploratória</td>
+                <td>Lucas</td>
+                <td>05/09/2025</td>
+                <td>12/09/2025</td>
+                <td>Relatório exploratório</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pré-processamento e balanceamento dos dados</td>
+                <td>Lucas</td>
+                <td>13/09/2025</td>
+                <td>20/09/2025</td>
+                <td>Dataset tratado</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Redação parcial e revisão técnica</td>
+                <td>Luiz</td>
+                <td>01/10/2025</td>
+                <td>15/10/2025</td>
+                <td>Documento intermediário</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><strong>Entrega da Etapa 2</strong></td>
+                <td>Todos os membros</td>
+                <td>—</td>
+                <td><strong>16/10/2025</strong></td>
+                <td><strong>A2 – Aplicando Conhecimento (N1)</strong></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Modelagem e treinamento dos algoritmos</td>
+                <td>Diógenes</td>
+                <td>17/10/2025</td>
+                <td>25/10/2025</td>
+                <td>Modelos treinados</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Avaliação dos modelos e ajustes</td>
+                <td>Diógenes</td>
+                <td>26/10/2025</td>
+                <td>03/11/2025</td>
+                <td>Relatório de desempenho</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Geração de gráficos e visualizações</td>
+                <td>Déborah</td>
+                <td>04/11/2025</td>
+                <td>10/11/2025</td>
+                <td>Material visual pronto</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><strong>Entrega da Etapa 3</strong></td>
+                <td>Todos os membros</td>
+                <td>—</td>
+                <td><strong>13/11/2025</strong></td>
+                <td><strong>A3 – Atividades</strong></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Documentação final e organização do repositório</td>
+                <td>Luiz</td>
+                <td>14/11/2025</td>
+                <td>23/11/2025</td>
+                <td>Relatório final concluído</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Preparação da apresentação e vídeo final</td>
+                <td>Todos os membros</td>
+                <td>24/11/2025</td>
+                <td>26/11/2025</td>
+                <td>Apresentação pronta</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><strong>Entrega da Etapa 4</strong></td>
+                <td>Todos os membros</td>
+                <td>—</td>
+                <td><strong>27/11/2025</strong></td>
+                <td><strong>A4 – Projeto Final (PF)</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+        <section id="github">
+            <h2>Organização no GitHub</h2>
+            <ul>
+                <li><strong>Repositório:</strong> <a href="https://github.com/httpsdebs/Projeto_Aplicado_I" target="_blank">Projeto_Aplicado_I</a></li>
+                <li><strong>README.md:</strong> Objetivo, integrantes e descrição</li>
+                <li><strong>/data:</strong> Dataset</li>
+                <li><strong>/scripts:</strong> Análises e modelos</li>
+                <li><strong>/docs:</strong> Relatórios e apresentações</li>
+            </ul>
+        </section>
+
+        <section id="execucao">
+            <h2>Execução dos Scripts</h2>
+            <ol>
+                <li>Configurar ambiente Python 3.x.</li>
+                <li>Instalar dependências:</li>
+            </ol>
+            <pre><code>pip install -r requirements.txt</code></pre>
+            <ol start="3">
+                <li>Executar scripts na pasta <code>/scripts</code> conforme o cronograma.</li>
+            </ol>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Projeto Aplicado I - Grupo Déborah, Diógenes, Lucas e Luiz</p>
+    </footer>
+</body>
+</html>
