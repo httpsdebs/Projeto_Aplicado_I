@@ -11,6 +11,10 @@ balanceamento de classes (SMOTE) e modelagem supervisionada com Random Forest.
 - `docs/` – Documentação técnica e relatório final
 - `README.md` – Descrição do projeto, integrantes e instruções de uso
 
+## Link da Apresentação
+
+https://www.youtube.com/watch?v=cSnMEPGrhTU
+
 ## Principais Resultados
 O modelo Random Forest, após balanceamento com SMOTE, alcançou:
 - **AUC-ROC:** 0.98  
